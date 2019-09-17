@@ -20,7 +20,7 @@ class BadgeNew extends React.Component
                 <div className = "row">
                     <div className = "col">
                     
-                    <Badge firstname = "Valiton" lastname = "Corp & Logistics" twitter = "valitoncorp" facebook ="facebook.com/ValitonCorp"/> 
+                    <Badge firstname = "Valiton" lastname = "Corp & Logistics" twitter = "valitoncorp" facebook ="facebook/ValitonCorp"/> 
             </div>
                  </div>
                       </div>
