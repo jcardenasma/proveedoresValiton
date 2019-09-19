@@ -23,8 +23,11 @@ render () {
     </div>
 
     <div className = "Badge__section-info"> 
-        <h3> {this.props.facebook}</h3>
-        <div> @{this.props.twitter} </div>
+         <div> @{this.props.twitter} </div>
+    </div>
+
+    <div className = "Badge__section-info"> 
+                <div> {this.props.email} </div>
     </div>
 
     <div className = "Badge__footer">#Valiton</div>
