@@ -18,7 +18,7 @@ render () {
     <div className = "Badge__section-name">
         <img className = "Badge__avatar" src = {avatar} alt = "Imagen Valiton"/>
         <h1>
-         {this.props.firstname} <br/> {this.props.lastname}
+         {this.props.firstName} <br/> {this.props.lastName}
         </h1>
     </div>
 

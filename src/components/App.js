@@ -1,10 +1,12 @@
 import React from 'react';
-import {BrowserRouter, Switch , Route} from 'react-router-dom';
-import BadgeNew from '../pages/BadgeNew';
-import Badges from '../pages/Badges';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
 import Layout from '../components/Layout';
-import Notfound from '../pages/Notfound';
 import Home from '../pages/Home';
+import Badges from '../pages/Badges';
+import BadgeNew from '../pages/BadgeNew';
+import Notfound from '../pages/Notfound';
+
 
 function App() {
     return (
