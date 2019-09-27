@@ -68,7 +68,7 @@
       "firstName": "Guadalupe",
       "lastName": "Cardenas",
       "email": "josegpe_674@hotmail.com",
-      "profesion": "engenier",
+      "profesion": "desarrollador",
       "twitter": "josecardenasg",
       "id": "2LnQ-J1"
     },
@@ -87,6 +87,15 @@
       "profesion": "desarrollador",
       "twitter": "carloshernandez",
       "id": "uC7JqMb"
+    },
+    {
+      "firstName": "Raul",
+      "lastName": "Macias",
+      "email": "josegpe_674@hotmail.com",
+      "profesion": "Desarrollador",
+      "twitter": "Car_0905",
+      "id": "WQhtsxx",
+      "Idproveeodr": "1"
     }
   ]
 }

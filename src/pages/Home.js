@@ -1,9 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 import './styles/Home.css';
 import platziconfLogoImage from '../images/avatarval.jpg';
-//import astronautsImage from '../images/astronauts.svg';
 
 class Home extends React.Component {
     render() {

@@ -8,17 +8,21 @@ class BadgeForm extends React.Component {
         console.log("Button was click");
     }
 
-  //  handleSubmit = e => {
-    //    e.preventDefault();    
-      //  console.log('form was submitted');
-        //console.log(this.state);
-        
-    //}
-
     render(){
         return(
             <div>
                 <form onSubmit =  {this.props.onSubmit}>
+
+                <div className = "form-group">
+                    <label>Id Proveedor</label>
+                    <input 
+                    onChange = {this.props.onChange} 
+                    className = "form-control" 
+                    type= "text" 
+                    name = "Idproveeodr"
+                    value = {this.props.formValues.Idproveedor}
+                    />
+                </div>
 
                 <div className = "form-group">
                     <label>Nombre</label>
@@ -30,9 +34,10 @@ class BadgeForm extends React.Component {
                     value = {this.props.formValues.firstName}
                     />
                 </div>
+                
 
                 <div className = "form-group">
-                    <label>Apellido</label>
+                    <label>RFC</label>
                     <input 
                     onChange = {this.props.onChange} 
                     className = "form-control" 
@@ -54,7 +59,7 @@ class BadgeForm extends React.Component {
                 </div>
 
                 <div className = "form-group">
-                    <label>Profesion</label>
+                    <label>Permiso</label>
                     <input 
                     onChange = {this.props.onChange} 
                     className = "form-control" 
@@ -65,11 +70,11 @@ class BadgeForm extends React.Component {
                 </div>
 
                 <div className = "form-group">
-                    <label>twitter</label>
+                    <label>Contraseña</label>
                     <input 
                     onChange = {this.props.onChange} 
                     className = "form-control" 
-                    type= "text" 
+                    type= "password" 
                     name = "twitter"
                     value = {this.props.formValues.twitter}
                     />
