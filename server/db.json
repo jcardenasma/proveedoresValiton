@@ -49,10 +49,10 @@
       "avatarUrl": "https://www.gravatar.com/avatar/00e35de53a06a655fe5b6ac8b96bdb84?d=identicon"
     },
     {
-      "firstName": "Jose",
+      "firstName": "Jose Guadalupe",
       "lastName": "Cardenas",
       "email": "josecardenas208@gmail.com",
-      "profesion": "desarrollador",
+      "profesion": "Programador",
       "twitter": "josecardenasg",
       "id": "WitELlm"
     },
@@ -65,7 +65,7 @@
       "id": "ZWy31Ib"
     },
     {
-      "firstName": "Guadalupe",
+      "firstName": "Jose",
       "lastName": "Cardenas",
       "email": "josegpe_674@hotmail.com",
       "profesion": "desarrollador",
@@ -96,6 +96,15 @@
       "twitter": "Car_0905",
       "id": "WQhtsxx",
       "Idproveeodr": "1"
+    },
+    {
+      "firstName": "Arturo",
+      "lastName": "Montes",
+      "email": "",
+      "profesion": "Sistemas",
+      "twitter": "",
+      "Idproveeodr": "1",
+      "id": "CIj7YuT"
     }
   ]
 }

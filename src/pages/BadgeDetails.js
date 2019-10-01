@@ -14,7 +14,7 @@ class BageDetails extends React.Component {
         data: undefined,
     };
  
-    UNSAFE_componentWillMount() {
+    componentDidMount() {
         this.fetchData ();
     }
 

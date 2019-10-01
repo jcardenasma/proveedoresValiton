@@ -21,7 +21,7 @@ class BadgeEdit extends React.Component {
     },
    };
 
-   componentDidMount(){
+   UNSAFE_componentWillMount(){
        this.fetchData()
    }
 

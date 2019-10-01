@@ -14,7 +14,7 @@ class Badges extends React.Component{
         data: undefined,
     };
 
-    componentDidMount (){
+    UNSAFE_componentWillMount (){
         this.fetchData();
 
         this.intervalId = setInterval(this.fetchData, 5000);
